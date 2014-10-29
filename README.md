@@ -2,6 +2,9 @@
 
 An Ruboty Handler + Actions to output N line messages.
 
+[![Build Status](https://travis-ci.org/tbpgr/ruboty-ume.png?branch=master)](https://travis-ci.org/tbpgr/ruboty-ume)
+[![Coverage Status](https://coveralls.io/repos/tbpgr/ruboty-ume/badge.png)](https://coveralls.io/r/tbpgr/ruboty-ume)
+
 [Ruboty](https://github.com/r7kamura/ruboty) is Chat bot framework. Ruby + Bot = Ruboty
 
 ## Installation
