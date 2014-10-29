@@ -27,13 +27,38 @@ Or install it yourself as:
 ### Ume empty messages
 
 ~~~
-now editing...
+> ruboty help
+ruboty /ume (?<count>.*?)\z/               - output empty message N lines (<count> times)
+> ruboty ume 3
+
+
+
+
+> ruboty ume 5
+
+
+
+
+
 ~~~
 
 ### Umec specific text messages
 
 ~~~
-now editing...
+> ruboty help
+ruboty /umec (?<text>.+?) (?<count>.*?)\z/ - output <text> message N lines (<count> times)
+> ruboty umec hoge 3
+hoge
+hoge
+hoge
+
+> ruboty umec hoge 5
+hoge
+hoge
+hoge
+hoge
+hoge
+
 ~~~
 
 ## ENV
