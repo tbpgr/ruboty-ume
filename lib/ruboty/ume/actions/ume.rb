@@ -13,7 +13,7 @@ module Ruboty
 
         def ume
           repeat_count = Ruboty::Ume::Actions.normalize_count(message[:count])
-          "\n" * repeat_count
+          ".\n" + ("\n" * (repeat_count - 2)) + ".\n"
         rescue => e
           e.message
         end

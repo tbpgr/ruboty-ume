@@ -19,12 +19,12 @@ describe Ruboty::Ume::Actions::Ume do
         case_no: 1,
         case_title: '10 count case',
         count: '10',
-        expected: "\n\n\n\n\n\n\n\n\n\n"
+        expected: ".\n\n\n\n\n\n\n\n\n.\n"
       },
       {
         case_no: 2,
         case_title: 'no count case',
-        expected: "\n" * Ruboty::Ume::Actions::DEFAULT_COUNT
+        expected: ".\n" + ("\n" * (Ruboty::Ume::Actions::DEFAULT_COUNT - 2)) + ".\n"
       },
       {
         case_no: 3,
