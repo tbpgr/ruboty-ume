@@ -31,16 +31,15 @@ Or install it yourself as:
 > ruboty help
 ruboty /ume (?<count>.*?)\z/               - output empty message N lines (<count> times)
 > ruboty ume 3
-
-
-
-
+.
+.
+.
 > ruboty ume 5
-
-
-
-
-
+.
+.
+.
+.
+.
 ~~~
 
 ### Umec specific text messages
