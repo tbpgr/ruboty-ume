@@ -1,6 +1,6 @@
 # Ruboty::Ume
 
-An Ruboty Handler + Actions to output N line messages.
+A Ruboty Handler + Actions to output N line messages.
 
 [![Gem Version](https://badge.fury.io/rb/ruboty-ume.svg)](http://badge.fury.io/rb/ruboty-ume)
 [![Build Status](https://travis-ci.org/tbpgr/ruboty-ume.png?branch=master)](https://travis-ci.org/tbpgr/ruboty-ume)
